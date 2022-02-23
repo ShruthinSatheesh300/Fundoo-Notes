@@ -1,0 +1,54 @@
+info: ::1 - - [21/Feb/2022:08:17:04 +0000] "GET /api/v1/%20 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:18:00 +0000] "GET /api/v1 HTTP/1.1" 200 9 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:20:18 +0000] "POST /api/v1/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:20:45 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:22:42 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:22:48 +0000] "POST /api/v1/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:24:18 +0000] "POST /api/v1/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:26:04 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:27:56 +0000] "POST /api/v1/userregister HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:30:32 +0000] "POST /api/v1//users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:30:39 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:30:46 +0000] "POST /api/v1/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:08:31:54 +0000] "POST /api/v1/userregister HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::ffff:127.0.0.1 - - [21/Feb/2022:08:33:37 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [21/Feb/2022:08:33:47 +0000] "POST /api/v1 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [21/Feb/2022:08:33:53 +0000] "GET /api/v1 HTTP/1.1" 200 9 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [21/Feb/2022:08:34:43 +0000] "POST /api/v1/user HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [21/Feb/2022:10:58:04 +0000] "GET /api/v1 HTTP/1.1" 200 9 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [21/Feb/2022:11:00:02 +0000] "GET /api/v1/user/userregister HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [21/Feb/2022:11:07:35 +0000] "POST /api/v1/users/userregister HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:16:45:05 +0000] "GET /api/v1/users/userregister HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:16:46:01 +0000] "GET /api/v1/users/userregister HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:16:46:23 +0000] "POST /api/v1/users/userregister HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:16:46:48 +0000] "GET /api/v1/users/userregister HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:16:47:00 +0000] "GET /api/v1/users/userregister HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:16:51:28 +0000] "POST /api/v1/users/userregister HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [21/Feb/2022:17:09:18 +0000] "POST /api/v1/users/userregister HTTP/1.1" 201 321 "-" "PostmanRuntime/7.29.0"
+

@@ -1,0 +1,231 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:01:47.367Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:01:47.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:03:17.521Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:03:17.559Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:09:59.539Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:09:59.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T04:25:40.272Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T04:25:40.319Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T04:37:08.630Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T04:37:08.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T04:42:46.295Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T04:42:46.330Z"}
+error: 
+    status - 500 
+    message - TypeError: user is not a function
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:29:14)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T04:44:51.732Z"}
+error: 
+    status - 500 
+    message - TypeError: user is not a function
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:29:14)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T04:45:22.117Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:24:11)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T04:47:00.323Z"}
+error: 
+    status - 500 
+    message - TypeError: user is not a function
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:29:14)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T04:47:14.352Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T04:51:11.623Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T04:51:11.683Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T05:00:53.491Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T05:00:53.555Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:22:27)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:21:19)
+    at _callee4$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\controllers\/user.controller.js:63:36)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:01:03.978Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T05:01:26.256Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T05:01:26.374Z"}
+error: 
+    status - 500 
+    message - TypeError: user is not a function
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:29:14)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:02:47.968Z"}
+error: 
+    status - 500 
+    message - TypeError: user is not a function
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:29:14)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:20:09.251Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T05:24:52.389Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T05:24:52.460Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T05:32:12.785Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T05:32:12.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T05:44:37.195Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T05:44:37.229Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T11:10:57.068Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:10:57.120Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:24:11)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:15:15.329Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:24:11)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:17:06.444Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T11:18:30.205Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:18:30.279Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T11:26:03.441Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:26:03.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T11:27:30.347Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:27:30.381Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T11:29:22.865Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:29:22.936Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T11:31:08.055Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:31:08.129Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:21:22)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:31:16.399Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:21:22)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:31:37.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T11:32:42.250Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:32:42.283Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:24:11)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:32:47.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T11:41:05.774Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:41:05.854Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:35:13)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:43:22.006Z"}
