@@ -16,6 +16,25 @@ export const userRegistration = async (body) => {
   const data = await User.create(body);
   return data;
 };
+//User Login part
+export const login = async (body) => {
+  const user = await User.findOne({ email: body.email });
+  if (user === null) {
+    throw new Error('User does not exist');
+  } else {
+    const validPassword = bcrypt.compareSync(body.password, user.password);
+    if (validPassword) {
+      var jwt = require('jsonwebtoken');
+      const token = jwt.sign(
+        { email: user.email, id: user._id },
+        'process.env.SECRET_CODE'
+      );
+      return token;
+    } else {
+      throw new Error('password is invalid');
+    }
+  }
+};
 
 //update single user
 export const updateUser = async (_id, body) => {
