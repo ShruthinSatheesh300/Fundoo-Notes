@@ -383,3 +383,132 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2022-02-23T04:02:39.262Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T09:40:56.374Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T09:40:56.450Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:35:13)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T09:42:32.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T10:14:51.546Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T10:14:51.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T10:17:33.994Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T10:17:34.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T10:41:02.043Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T10:41:02.117Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T10:41:23.731Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T10:41:23.785Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T14:41:06.045Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T14:41:06.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T14:50:03.614Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T14:50:03.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T15:33:17.548Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T15:33:17.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T15:40:06.404Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T15:40:06.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T16:13:19.511Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T16:13:19.597Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T16:14:04.385Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T16:14:04.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T16:17:52.446Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T16:17:52.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T16:29:44.758Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T16:29:44.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T16:32:48.314Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T16:32:48.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T16:42:14.620Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T16:42:14.656Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T16:42:24.081Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T16:42:24.117Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Description" is required 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:43:23.104Z"}
+error: 
+    status - 500 
+    message - ValidationError: "userID" is required 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:43:40.543Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: userId: Path `userId` is required., Discreption: Path `Discreption` is required.
+    at model.Document.invalidate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:43:52.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T16:44:58.570Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T16:44:58.606Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: userId: Path `userId` is required., Discreption: Path `Discreption` is required.
+    at model.Document.invalidate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:45:03.131Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Description" is required 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:45:14.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T16:48:50.879Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T16:48:50.912Z"}
+error: 
+    status - 500 
+    message - ValidationError: "userID" is required 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:48:54.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T16:49:18.701Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T16:49:18.744Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required.
+    at model.Document.invalidate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:49:26.911Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T16:50:31.005Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T16:50:31.039Z"}
+error: 
+    status - 500 
+    message - Error: This Note Already Exists
+    at _callee$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/note.service.js:12:13)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T17:40:00.831Z"}

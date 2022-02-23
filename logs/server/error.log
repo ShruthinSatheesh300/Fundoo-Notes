@@ -321,3 +321,92 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2022-02-23T04:02:39.262Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:35:13)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T09:42:32.093Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Description" is required 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:43:23.104Z"}
+error: 
+    status - 500 
+    message - ValidationError: "userID" is required 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:43:40.543Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: userId: Path `userId` is required., Discreption: Path `Discreption` is required.
+    at model.Document.invalidate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:43:52.659Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: userId: Path `userId` is required., Discreption: Path `Discreption` is required.
+    at model.Document.invalidate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:45:03.131Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Description" is required 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:45:14.508Z"}
+error: 
+    status - 500 
+    message - ValidationError: "userID" is required 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:48:54.285Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required.
+    at model.Document.invalidate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T16:49:26.911Z"}
+error: 
+    status - 500 
+    message - Error: This Note Already Exists
+    at _callee$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/note.service.js:12:13)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T17:40:00.831Z"}
