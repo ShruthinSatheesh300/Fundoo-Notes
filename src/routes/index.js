@@ -1,7 +1,9 @@
+/* eslint-disable prettier/prettier */
 import express from 'express';
 const router = express.Router();
 
 import userRoute from './user.route';
+import noteRoute from './note.route'
 /**
  * Function contains Application routes
  *
@@ -9,9 +11,11 @@ import userRoute from './user.route';
  */
 const routes = () => {
   router.get('/', (req, res) => {
-    res.json('Welcome');
+    res.json('Welcome To Fundoo Notes');
   });
   router.use('/users', userRoute);
+  router.use('/note', noteRoute);
+
 
   return router;
 };
