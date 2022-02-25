@@ -5,11 +5,13 @@ import * as NoteService from '../services/note.service';
 // To create new Note
 export const create = async (req, res, next) => {
     try {
+        console.log(' before adding userid req body ---->', req.body)
+        req.body.userId = req.body.data.id;
       const data = await NoteService.create(req.body);
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
         data: data,
-        message: 'Note created successfully'
+        message: 'The Note is Created successfully'
       });
     } catch (error) {
       next(error);
@@ -23,7 +25,7 @@ export const getAllNotes = async (req, res, next) => {
         res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: 'All notes fetched successfully'
+        message: 'All notes retrieved successfully'
     });
     }catch (error) {
         next(error);
@@ -34,10 +36,10 @@ export const getAllNotes = async (req, res, next) => {
 export const getSingleNote = async (req, res, next) => {
     try {
         const data = await NoteService.getSingleNote(req.params._id);
-        res.status(HttpStatus.ACCEPTED).json({
-        code: HttpStatus.ACCEPTED,
+        res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
         data: data,
-        message: 'Note fetched successfully'
+        message: 'Note retrieved successfully'
       });
     } catch (error) {
         next(error);
@@ -48,8 +50,8 @@ export const getSingleNote = async (req, res, next) => {
   export const updateNote = async (req, res, next) => {
     try {
       const data = await NoteService.updateNote(req.params._id, req.body);
-      res.status(HttpStatus.ACCEPTED).json({
-        code: HttpStatus.ACCEPTED,
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
         data: data,
         message: 'Note updated successfully'
       });
@@ -59,14 +61,13 @@ export const getSingleNote = async (req, res, next) => {
   };
 //To delete a note
   export const deleteNote = async (req, res, next) => {
-    try {
-      await NoteService.deleteNote(req.params._id);
+     try {
+       await NoteService.deleteNote(req.params._id);
       res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: [],
-        message: 'Note deleted successfully'
-      });
-    } catch (error) {
+        code: HttpStatus.OK, data: [],
+         message: 'Note deleted successfully'
+       });
+     } catch (error) {
       next(error);
-    }
-  };
+     }
+   };

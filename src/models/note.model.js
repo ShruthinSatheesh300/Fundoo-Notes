@@ -12,13 +12,19 @@ const noteSchema = new Schema(
         type: String,
         required: true,
      },
+     isArchived: {
+         type:Boolean,
+     },
+     isDeleted: {
+         type:Boolean
+     },
      Color:{
          type:String,
      },
      userId:{
          type:String,
          required: true,
-         unique: true,
+
      }
 
     },

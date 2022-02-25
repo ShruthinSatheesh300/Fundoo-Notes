@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 
 //get all users
 
@@ -25,12 +26,10 @@ export const login = async (body) => {
   } else {
     const validPassword = bcrypt.compareSync(body.password, user.password);
     if (validPassword) {
-      var jwt = require('jsonwebtoken');
-      const token = jwt.sign(
-        { email: user.email, id: user._id },
-        'process.env.SECRET_CODE'
-      );
-      return token;
+
+      const token = jwt.sign({'email': user.email,'id':user._id},
+      process.env.SECRET_CODE);
+       return token;
     } else {
       throw new Error('password is invalid');
     }

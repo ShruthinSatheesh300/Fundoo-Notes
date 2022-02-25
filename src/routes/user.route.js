@@ -16,12 +16,12 @@ router.post('/userregister', newUserValidator, userController.userRegistration);
 router.get('/login', userController.login);
 
 //route to get a single user by their user id
-router.get('/:_id', userAuth, userController.getUser);
+router.get('/byId', userAuth, userController.getUser);
 
 //route to update a single user by their user id
-router.put('/:_id', userController.updateUser);
+router.put('/byId', userController.updateUser);
 
 //route to delete a single user by their user id
-router.delete('/:_id', userController.deleteUser);
+router.delete('/byId', userController.deleteUser);
 
 export default router;

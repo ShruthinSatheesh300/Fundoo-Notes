@@ -1,23 +1,27 @@
 /* eslint-disable prettier/prettier */
 import express from 'express';
 import * as noteController from '../controllers/note.controller';
-import { newNoteValidator } from '../validators/note.validator';
+import { userAuth } from '../middlewares/auth.middleware';
+import { newNoteValidator } from '../validators/user.validator';
 
 const router = express.Router();
 
 // TO create a new Note
-router.post('/create', newNoteValidator, noteController.create);
+router.post('', newNoteValidator,userAuth, noteController.create);
 
 //To retrieve all Notes
-router.get('/getnote', noteController.getAllNotes);
+router.get('', noteController.getAllNotes);
 
 // To retrieve a single Note by noteId
 router.get('/:_id', noteController.getSingleNote);
 
 // To update a Note by noteId
-router.put('/updatenotes/:noteId', noteController.updateNote);
+router.put('/:_id', noteController.updateNote);
 
 //TO delete a Note by noteId
-router.delete('/deletenotes/:noteId', noteController.deleteNote);
+router.delete('/:_id', noteController.deleteNote);
+
+//To update in Archived
+//router.put('/:_id', noteController.archiveNote);
 
 export default router;
