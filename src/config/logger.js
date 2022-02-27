@@ -1,4 +1,4 @@
- import winston, { format } from 'winston';
+import winston, { format } from 'winston';
 import 'winston-daily-rotate-file';
 
 /**

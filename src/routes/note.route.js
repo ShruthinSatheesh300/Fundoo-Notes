@@ -6,21 +6,18 @@ import { newNoteValidator } from '../validators/user.validator';
 const router = express.Router();
 
 // TO create a new Note
-router.post('', newNoteValidator, userAuth, noteController.create);
+router.post('/create', newNoteValidator,userAuth, noteController.create);
 
 //To retrieve all Notes
-router.get('', noteController.getAllNotes);
+router.get('/getnote', noteController.getAllNotes);
 
 // To retrieve a single Note by noteId
-router.get('/get/:_id', noteController.getSingleNote);
+router.get('/_id', noteController.getSingleNote);
 
 // To update a Note by noteId
-router.put('/update/:_id', noteController.updateNote);
+router.put('/_id', noteController.updateNote);
 
 //TO delete a Note by noteId
-router.delete('/todel/:_id', noteController.delById);
-
-//To move in Archive
-router.put('/archive/:_id', noteController.archiveNote);
+router.delete('/_id', noteController.deleteNote);
 
 export default router;
