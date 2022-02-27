@@ -1,5 +1,4 @@
-/* eslint-disable prettier/prettier */
-import Note from '../models/note.model';
+ import Note from '../models/note.model';
 
 
 //TO create new note
@@ -23,7 +22,7 @@ export const getAllNotes = async () => {
 //To retrive single note
 
 export const getSingleNote = async (_id) => {
-    const data = await Note.findOne({_id:_id });
+    const data = await Note.findById({_id,userId});
     return data; //reffers the 'data'frm controller
 };
 
@@ -42,28 +41,20 @@ export const updateNote = async (_id, body) => {
     return data;
   };
 
-  //To update archive
-export const archiveNote = async (_id, body) => {
+  //To archive by ID
+export const archiveNote = async (_id,) => {
     const data = await Note.findByIdAndUpdate(
       {
         _id
       },
-      body,
       {
-       new: true
+       $set: { isArchived: true },
       }
     );
     return data;
   };
-//delete note
-export const deleteNote = async (id) => {
-    await User.findByIdAndDelete(id);
+//Delete note by id
+export const delById = async (_id) => {
+    await Note.findByIdAndDelete(_id);
     return '';
   };
-
-//TO delete a  note
-
-// export const deleteNote = async (id) => {
-//     await User.findByIdAndDelete(id);
-//     return '';//Nothing to return as data is del
-// };
