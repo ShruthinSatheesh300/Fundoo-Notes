@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 
@@ -19,17 +18,17 @@ export const userAuth = async (req, res, next) => {
         message: 'Authorization token is required'
       };
     bearerToken = bearerToken.split(' ')[1];
-    jwt.verify(bearerToken,process.env.SECRET_CODE, (err, verifiedToken) => {
+    jwt.verify(bearerToken, process.env.SECRET_CODE, (err, verifiedToken) => {
       if (err) {
         throw {
-          code:HttpStatus.BAD_REQUEST,
+          code: HttpStatus.BAD_REQUEST,
           message: 'Token for Authorization is Incorrect'
         };
-      }else{
+      } else {
         req.body['data'] = verifiedToken;
         next();
+      }
     }
-  }
     );
   } catch (error) {
     next(error);

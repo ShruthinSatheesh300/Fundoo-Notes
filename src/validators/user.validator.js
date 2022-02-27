@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import Joi from '@hapi/joi';
 
 export const newUserValidator = (req, res, next) => {
@@ -23,7 +22,7 @@ export const newNoteValidator = (req, res, next) => {
   const schema = Joi.object({
     Title: Joi.string().min(4).required(),
     Description: Joi.string().min(4).required(),
-     isArchived: Joi.boolean(),
+    isArchived: Joi.boolean(),
     isDeleted: Joi.boolean(),
     Color: Joi.string()
 

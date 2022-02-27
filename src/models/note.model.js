@@ -1,5 +1,4 @@
-/* eslint-disable prettier/prettier */
-
+ 
 import { Schema, model } from 'mongoose';
 
 const noteSchema = new Schema(
