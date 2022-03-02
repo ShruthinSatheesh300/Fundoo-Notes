@@ -17,7 +17,9 @@ router.get('/_id', noteController.getSingleNote);
 // To update a Note by noteId
 router.put('/_id', noteController.updateNote);
 
-//TO delete a Note by noteId
-router.delete('/_id', noteController.deleteNote);
+router.put('/archive/:_id', noteController.archiveNote);
+
+//To move in Trashbin
+router.put('/bin/:_id', noteController.trashbin);
 
 export default router;

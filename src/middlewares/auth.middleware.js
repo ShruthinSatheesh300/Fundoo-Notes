@@ -27,3 +27,27 @@ export const userAuth = async (req, res, next) => {
     next(error);
   }
 };
+
+export const authenticate = async (req, res, next) => {
+  try {
+    let bearerToken = req.header('Authorization');
+    if (!bearerToken)
+      throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Authorization token is required'
+      };
+      bearerToken = bearerToken.split(' ')[1];
+    jwt.verify(bearerToken, process.env.SECRET_KEY, (err, verifiedToken) => {
+      if (err) {
+        return res.status(HttpStatus.BAD_REQUEST).json({ 
+          message: 'Token for Authorization is Incorrect' 
+        });
+      } else {
+        req.body['data'] = verifiedToken;
+        next();
+      }
+    });
+  } catch (error) {
+    next(error);
+  }
+};

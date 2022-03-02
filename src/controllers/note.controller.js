@@ -31,41 +31,68 @@ export const getAllNotes = async (req, res, next) => {
 
 //To retrieve single note by id
 export const getSingleNote = async (req, res, next) => {
-    try {
-        const data = await NoteService.getSingleNote(req.params._id);
-        res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: data,
-        message: 'Note fetched successfully'
-      });
-    } catch (error) {
-        next(error);
-    }
-  };
+  try {
+    // eslint-disable-next-line max-len
+    const data = await NoteService.getSingleNote(req.params._id);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Note retrieved successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
 
-  //TO update a note
-  export const updateNote = async (req, res, next) => {
-    try {
-      const data = await NoteService.updateNote(req.params._id, req.body);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: data,
-        message: 'Note updated successfully'
-      });
-    } catch (error) {
-      next(error);
-    }
-  };
+//TO update a note by id
+export const updateNote = async (req, res, next) => {
+  try {
+    const data = await NoteService.updateNote(req.params._id, req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Note updated successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+//To archive by ID
+export const archiveNote = async (req, res, next) => {
+  try {
+    const data = await NoteService.archiveNote(req.params._id);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Note Added to Archive'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+//To move note to Trash
+export const trashbin = async (req, res, next) => {
+  try {
+    const data = await NoteService.trashbin(req.params._id);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Note Added to TrashBin'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
 //To delete a note
-  export const deleteNote = async (req, res, next) => {
-    try {
-      await NoteService.deleteNote(req.params._id);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: [],
-        message: 'Note deleted successfully'
-      });
-    } catch (error) {
-      next(error);
-    }
-  };
+export const delById = async (req, res, next) => {
+  try {
+    await NoteService.delById(req.body.userId);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK, data: [],
+      message: 'Note deleted successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};

@@ -13,15 +13,15 @@ export const create = async (body) => {
 
 //TO retrive all notes
 
-export const getAllNotes = async () => {
-    const data = await Note.find();
+export const getAllNotes = async (userId) => {
+    const data = await Note.find(userId);
     return data; //reffers the 'data'frm controller
   };
 
 //To retrive single note
 
 export const getSingleNote = async (_id) => {
-    const data = await Note.findById(_id);
+    const data = await Note.findById({_id});
     return data; //reffers the 'data'frm controller
   };
 
@@ -40,9 +40,34 @@ export const updateNote = async (_id, body) => {
     return data; //reffers the 'data'frm controller
   };
 
-//TO delete a  note
+  //To archive by ID
+export const archiveNote = async (_id,) => {
+    const data = await Note.findByIdAndUpdate(
+      {
+        _id
+      },
+      {
+       $set: { isArchived: true },
+      }
+    );
+    return data;
+  };
+  
+  //To add to Trash by id
+  export const trashbin = async (_id,) => {
+    const data = await Note.findByIdAndUpdate(
+      {
+        _id
+      },
+      {
+       $set: { $isDeleted: true },
+      }
+    );
+    return data;
+  };
 
-export const deleteNote = async (id) => {
-    await User.findByIdAndDelete(id);
-    return '';//Nothing to return as data is del
+//Delete note by id
+export const delById = async (userId) => {
+    await Note.findByIdAndDelete(userId);
+    return '';
   };
