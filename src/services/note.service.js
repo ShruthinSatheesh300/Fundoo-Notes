@@ -8,7 +8,7 @@ export const create = async (body) => {
       const data = await Note.create(body);
       return data; //reffers the 'data'frm controller
      // }else {
-    // throw Error ('This Note Already Exists')
+     //throw Error ('This Note Already Exists')
 };
 
 //TO retrive all notes
@@ -67,7 +67,7 @@ export const archiveNote = async (_id,) => {
   };
 
 //Delete note by id
-export const delById = async (userId) => {
-    await Note.findByIdAndDelete(userId);
+export const delById = async (_id) => {
+    await Note.findByIdAndDelete(_id);
     return '';
   };

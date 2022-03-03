@@ -2121,3 +2121,449 @@ info: ::1 - - [02/Mar/2022:14:31:52 +0000] "PUT /api/v1/users/setpass/621c930338
 
 info: ::1 - - [02/Mar/2022:14:37:49 +0000] "PUT /api/v1/users/setpass/621c93033897922270d09a88 HTTP/1.1" 200 339 "-" "PostmanRuntime/7.29.0"
 
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\express\lib\router\route.js:202:15)
+    at Function.get (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\routes\/user.route.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:141:7) {"date":"Wed Mar 02 2022 22:25:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":436205},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18334952,"external":25327693,"heapTotal":125886464,"heapUsed":91944440,"rss":162422784},"pid":8012,"uid":null,"version":"v16.13.2"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.get (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\routes\\/user.route.js:8:8)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)","trace":[{"column":15,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":202,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":516,"method":"get","native":false},{"column":8,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\routes\\/user.route.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false}]}
+info: ::1 - - [02/Mar/2022:17:01:16 +0000] "GET /api-docs/ HTTP/1.1" 200 3102 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [02/Mar/2022:17:01:16 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 3478 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [02/Mar/2022:17:01:16 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 331274 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [02/Mar/2022:17:01:16 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1085790 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [02/Mar/2022:17:01:17 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 143858 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [02/Mar/2022:17:01:17 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:35:05 +0000] "POST /api/v1/users/users/userregister HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:57:51 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:57:51 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:57:51 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:57:51 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 3522 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:57:51 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:57:51 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:58:46 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:58:46 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:58:46 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:58:46 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 3524 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:58:46 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:58:46 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:59:35 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:59:35 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:59:35 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:59:35 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 3523 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:59:35 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:02:59:35 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:11:02 +0000] "PUT /api/v1/users/setpass/621c93033897922270d09a88 HTTP/1.1" 200 339 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:03:13:13 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:13:13 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:13:13 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:13:13 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 3435 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:13:13 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:13:14 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:14:11 +0000] "POST /api/v1/users/userregister HTTP/1.1" 500 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:14:50 +0000] "POST /api/v1/users/userregister HTTP/1.1" 500 61 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:25:05 +0000] "POST /api/v1/users/userregister HTTP/1.1" 201 336 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:34:28 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:34:28 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 3442 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:34:28 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:34:28 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:34:28 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:03:34:29 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:34:00 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:34:00 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11704 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:34:00 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:34:00 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:34:00 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:34:01 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:37:15 +0000] "POST /api/v1/users/userregister HTTP/1.1" 201 325 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:38:04 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:38:56 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:38:56 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:38:56 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:38:56 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11703 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:38:56 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:38:56 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:40:15 +0000] "POST /api/v1/users/userregister HTTP/1.1" 201 322 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:43:47 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:43:47 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:43:47 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:43:47 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11704 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:43:47 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:43:48 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:44:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:46:01 +0000] "POST /api/v1/note/create HTTP/1.1" 500 76 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:54:39 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:54:39 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:54:39 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:54:39 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11652 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:54:39 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:07:54:40 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\express\lib\router\index.js:500:15)
+    at Function.proto.<computed> [as delete] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\express\lib\router\index.js:515:22)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\routes\/note.route.js:26:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:136:24) {"date":"Thu Mar 03 2022 13:26:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2485},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18331029,"external":25359069,"heapTotal":124977152,"heapUsed":92265752,"rss":160403456},"pid":10468,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'length')\n    at pathtoRegexp (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\path-to-regexp\\index.js:63:49)\n    at new Layer (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\router\\layer.js:45:17)\n    at Function.route (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\router\\index.js:500:15)\n    at Function.proto.<computed> [as delete] (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\router\\index.js:515:22)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\routes\\/note.route.js:26:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)","trace":[{"column":49,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\path-to-regexp\\index.js","function":"pathtoRegexp","line":63,"method":null,"native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\router\\layer.js","function":"new Layer","line":45,"method":null,"native":false},{"column":15,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.route","line":500,"method":"route","native":false},{"column":22,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":515,"method":"<computed> [as delete]","native":false},{"column":1,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\routes\\/note.route.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false}]}
+info: ::1 - - [03/Mar/2022:08:08:18 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:08:18 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:08:18 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:08:18 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11488 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:08:18 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:08:18 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:12:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:15:02 +0000] "POST /api/v1/note/create HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:16:35 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:16:35 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:16:35 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:16:35 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11481 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:16:35 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:16:36 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:29:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:30:36 +0000] "POST /api/v1/note HTTP/1.1" 500 76 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:20 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:20 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:20 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:20 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:20 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11704 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:21 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:38:42 +0000] "POST /api/v1/note/create HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:34 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:35 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:35 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:35 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11697 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:35 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:35 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:40:10 +0000] "POST /api/v1/note HTTP/1.1" 500 76 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:45:33 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:45:33 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:45:33 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:08:45:33 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:45:33 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:45:34 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:46:21 +0000] "POST /api/v1/note HTTP/1.1" 500 76 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:46:43 +0000] "POST /api/v1/note HTTP/1.1" 500 76 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:53:59 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:53:59 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:53:59 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:53:59 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:53:59 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:53:59 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:55:07 +0000] "POST /api/v1/users/userregister HTTP/1.1" 201 324 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:55:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 239 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:58:25 +0000] "POST /api/v1/note HTTP/1.1" 500 76 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:25:04 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:25:04 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:25:04 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:25:04 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:25:04 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11747 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:25:05 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:26:55 +0000] "POST /api/v1/users/userregister HTTP/1.1" 201 324 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:27:27 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:29:44 +0000] "POST /api/v1/note HTTP/1.1" 500 76 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:40:27 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:40:27 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:40:27 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:40:27 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:40:27 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:40:27 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:40:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:42:48 +0000] "POST /api/v1/note HTTP/1.1" 500 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:44:31 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:44:31 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:44:31 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:44:31 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:44:31 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:44:32 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:44:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:46:07 +0000] "POST /api/v1/note HTTP/1.1" 500 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:47:04 +0000] "POST /api/v1/note HTTP/1.1" 500 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:52:21 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:52:21 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:52:21 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:52:21 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:52:21 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:52:21 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:52:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:53:46 +0000] "POST /api/v1/note HTTP/1.1" 201 255 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error: uncaughtException: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\controllers\note.controller.js: Unexpected token (90:39)
+
+[0m [90m 88 |[39m [36mexport[39m [36mconst[39m delById [33m=[39m [36masync[39m (req[33m,[39m res[33m,[39m next) [33m=>[39m {[0m
+[0m [90m 89 |[39m   [36mtry[39m {[0m
+[0m[31m[1m>[22m[39m[90m 90 |[39m     [36mawait[39m [33mNoteService[39m[33m.[39mdelById(req[33m.[39mbody[33m.[39m)[33m;[39m[0m
+[0m [90m    |[39m                                        [31m[1m^[22m[39m[0m
+[0m [90m 91 |[39m     res[33m.[39mstatus([33mHttpStatus[39m[33m.[39m[33mOK[39m)[33m.[39mjson({[0m
+[0m [90m 92 |[39m       code[33m:[39m [33mHttpStatus[39m[33m.[39m[33mOK[39m[33m,[39m data[33m:[39m [][33m,[39m[0m
+[0m [90m 93 |[39m       message[33m:[39m [32m'Note deleted successfully'[39m[0m
+SyntaxError: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\controllers\note.controller.js: Unexpected token (90:39)
+
+[0m [90m 88 |[39m [36mexport[39m [36mconst[39m delById [33m=[39m [36masync[39m (req[33m,[39m res[33m,[39m next) [33m=>[39m {[0m
+[0m [90m 89 |[39m   [36mtry[39m {[0m
+[0m[31m[1m>[22m[39m[90m 90 |[39m     [36mawait[39m [33mNoteService[39m[33m.[39mdelById(req[33m.[39mbody[33m.[39m)[33m;[39m[0m
+[0m [90m    |[39m                                        [31m[1m^[22m[39m[0m
+[0m [90m 91 |[39m     res[33m.[39mstatus([33mHttpStatus[39m[33m.[39m[33mOK[39m)[33m.[39mjson({[0m
+[0m [90m 92 |[39m       code[33m:[39m [33mHttpStatus[39m[33m.[39m[33mOK[39m[33m,[39m data[33m:[39m [][33m,[39m[0m
+[0m [90m 93 |[39m       message[33m:[39m [32m'Note deleted successfully'[39m[0m
+    at Parser._raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.parseIdentifierName (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2645:18)
+    at Parser.parseIdentifier (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2625:23)
+    at Parser.parseMember (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:797:28)
+    at Parser.parseSubscript (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:757:21)
+    at Parser.parseSubscripts (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:703:19)
+    at Parser.parseExprSubscripts (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:688:17)
+    at Parser.parseUpdate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21) {"date":"Thu Mar 03 2022 21:25:02 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":39,"index":2362,"line":90},"pos":2362,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":31184},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18318522,"external":27003550,"heapTotal":134557696,"heapUsed":112116416,"rss":170418176},"pid":7048,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\controllers\\note.controller.js: Unexpected token (90:39)\n\n\u001b[0m \u001b[90m 88 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m delById \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m (req\u001b[33m,\u001b[39m res\u001b[33m,\u001b[39m next) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 89 |\u001b[39m   \u001b[36mtry\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[33mNoteService\u001b[39m\u001b[33m.\u001b[39mdelById(req\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 91 |\u001b[39m     res\u001b[33m.\u001b[39mstatus(\u001b[33mHttpStatus\u001b[39m\u001b[33m.\u001b[39m\u001b[33mOK\u001b[39m)\u001b[33m.\u001b[39mjson({\u001b[0m\n\u001b[0m \u001b[90m 92 |\u001b[39m       code\u001b[33m:\u001b[39m \u001b[33mHttpStatus\u001b[39m\u001b[33m.\u001b[39m\u001b[33mOK\u001b[39m\u001b[33m,\u001b[39m data\u001b[33m:\u001b[39m []\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 93 |\u001b[39m       message\u001b[33m:\u001b[39m \u001b[32m'Note deleted successfully'\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.parseIdentifierName (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2645:18)\n    at Parser.parseIdentifier (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2625:23)\n    at Parser.parseMember (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:797:28)\n    at Parser.parseSubscript (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:757:21)\n    at Parser.parseSubscripts (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:703:19)\n    at Parser.parseExprSubscripts (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:688:17)\n    at Parser.parseUpdate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)","trace":[{"column":45,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":18,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseIdentifierName","line":2645,"method":"parseIdentifierName","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseIdentifier","line":2625,"method":"parseIdentifier","native":false},{"column":28,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMember","line":797,"method":"parseMember","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscript","line":757,"method":"parseSubscript","native":false},{"column":19,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscripts","line":703,"method":"parseSubscripts","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":688,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Thu Mar 03 2022 21:25:49 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":31232},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18384978,"external":25440591,"heapTotal":126025728,"heapUsed":99111072,"rss":162816000},"pid":13500,"uid":null,"version":"v16.13.2"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: ::1 - - [03/Mar/2022:15:56:36 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:56:36 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:56:36 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:56:36 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:56:36 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:56:37 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:58:12 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:59:11 +0000] "POST /api/v1/note HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:15:59:32 +0000] "POST /api/v1/note HTTP/1.1" 201 241 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:00:09 +0000] "GET /api/v1/note HTTP/1.1" 200 3606 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:00:44 +0000] "PUT /api/v1/note/archive/6220e5e4a1e36805fc911526 HTTP/1.1" 200 230 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:00:58 +0000] "PUT /api/v1/note/bin/6220e5e4a1e36805fc911526 HTTP/1.1" 200 249 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:01:35 +0000] "PUT /api/v1/note/6220e5e4a1e36805fc911526 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:07:32 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:07:32 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:07:32 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:07:32 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:07:32 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:07:33 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:10:18 +0000] "POST /api/v1/users/forgot HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:11:44 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:11:44 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:11:44 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:11:44 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:11:44 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:11:44 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:11:55 +0000] "POST /api/v1/users/forgot HTTP/1.1" 200 234 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:16:12:46 +0000] "PUT /api/v1/users/setpass/%7B_id%7D HTTP/1.1" 200 323 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+

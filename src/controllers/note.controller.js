@@ -87,7 +87,7 @@ export const trashbin = async (req, res, next) => {
 //To delete a note
 export const delById = async (req, res, next) => {
   try {
-    await NoteService.delById(req.body.userId);
+    await NoteService.delById(req.body._id);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK, data: [],
       message: 'Note deleted successfully'

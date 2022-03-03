@@ -45,12 +45,12 @@ export const forgetPassword = async (body) => {
   
 };
 export const resetPass = async (body) => {
-  const data = await User.findByIdAndUpdate({_id: body.userID }, 
-    {$set: {password: body.password}},
+ const salt = await bcrypt.genSalt(10);
+  const hashPassword = await bcrypt.hash(body.password, salt);
+  body.password = hashPassword;
+  const data = await User.findOneAndUpdate({_id: body.userID }, 
+     {password: body.password},
      {new: true} );
-  const salt = await bcrypt.genSalt(10);
-  const hashPassword = await bcrypt.hash(data.password, salt);
-  data.password = hashPassword;
   return data;
 
 };
