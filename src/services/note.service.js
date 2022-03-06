@@ -3,25 +3,27 @@ import Note from '../models/note.model';
 //TO create new note
 
 export const create = async (body) => {
-       // const note = await Note.findOne({ userId: body.userId })
-  //  if (note === null) {
+
       const data = await Note.create(body);
-      return data; //reffers the 'data'frm controller
-     // }else {
-     //throw Error ('This Note Already Exists')
+      return data;         //reffers the 'data'frm controller
+     
 };
 
 //TO retrive all notes
 
 export const getAllNotes = async (userId) => {
-    const data = await Note.find(userId);
-    return data; //reffers the 'data'frm controller
+    const data = await Note.find({userId});
+    if(data.length === 0){
+      throw Error('No Note is Found')
+    }else{
+    return data;
+    }                          //reffers the 'data'frm controller
   };
 
 //To retrive single note
 
-export const getSingleNote = async (_id) => {
-    const data = await Note.findById({_id});
+export const getSingleNote = async (_id,userId) => {
+    const data = await Note.findById({_id,userId});
     return data; //reffers the 'data'frm controller
   };
 
@@ -41,33 +43,37 @@ export const updateNote = async (_id, body) => {
   };
 
   //To archive by ID
-export const archiveNote = async (_id,) => {
+export const archiveNote = async (_id) => {
     const data = await Note.findByIdAndUpdate(
       {
         _id
       },
       {
        $set: { isArchived: true },
+      }, {
+        new: true
       }
     );
     return data;
   };
   
   //To add to Trash by id
-  export const trashbin = async (_id,) => {
+  export const trashbin = async (_id) => {
     const data = await Note.findByIdAndUpdate(
       {
         _id
       },
       {
-       $set: { $isDeleted: true },
+       $set: { isDeleted: true },
+      }, {
+        new: true
       }
     );
     return data;
   };
 
 //Delete note by id
-export const delById = async (_id) => {
-    await Note.findByIdAndDelete(_id);
+export const delNote = async (userId) => {
+    await Note.findByIdAndDelete(userId);
     return '';
   };
