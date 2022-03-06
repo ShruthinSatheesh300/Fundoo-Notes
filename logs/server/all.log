@@ -4096,3 +4096,615 @@ info: Connected to the database. {"timestamp":"2022-03-03T16:11:42.662Z"}
 info: undefined {"accepted":["abcxyz@gmail.com"],"envelope":{"from":"shruthinofch@gmail.com","to":["abcxyz@gmail.com"]},"envelopeTime":989,"messageId":"<e7e56542-7240-596c-d52d-5a1368f47e19@gmail.com>","messageSize":552,"messageTime":855,"rejected":[],"response":"250 2.0.0 OK  1646323919 f9-20020a056a00228900b004f3ba7d177csm2900063pfe.54 - gsmtp","timestamp":"2022-03-03T16:11:58.958Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T16:13:45.769Z"}
 info: Connected to the database. {"timestamp":"2022-03-03T16:13:45.813Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T02:45:03.134Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T02:45:03.178Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-04T02:47:52.501Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T03:07:10.335Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T03:07:10.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T03:11:41.365Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T03:11:41.398Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T03:12:26.161Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T03:12:26.198Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T04:06:50.668Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T04:06:50.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T04:07:06.720Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T04:07:06.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T04:07:51.303Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T04:07:51.339Z"}
+error: uncaughtException: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (17:52)
+
+[0m [90m 15 |[39m[0m
+[0m [90m 16 |[39m [36mexport[39m [36mconst[39m getAllNotes [33m=[39m [36masync[39m (body) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 17 |[39m     [36mconst[39m data [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfind({userId[33m:[39mbody[33m.[39muserId)[33m;[39m[0m
+[0m [90m    |[39m                                                     [31m[1m^[22m[39m[0m
+[0m [90m 18 |[39m     [36mreturn[39m data[33m;[39m [90m//reffers the 'data'frm controller[39m[0m
+[0m [90m 19 |[39m   }[33m;[39m[0m
+[0m [90m 20 |[39m[0m
+SyntaxError: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (17:52)
+
+[0m [90m 15 |[39m[0m
+[0m [90m 16 |[39m [36mexport[39m [36mconst[39m getAllNotes [33m=[39m [36masync[39m (body) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 17 |[39m     [36mconst[39m data [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfind({userId[33m:[39mbody[33m.[39muserId)[33m;[39m[0m
+[0m [90m    |[39m                                                     [31m[1m^[22m[39m[0m
+[0m [90m 18 |[39m     [36mreturn[39m data[33m;[39m [90m//reffers the 'data'frm controller[39m[0m
+[0m [90m 19 |[39m   }[33m;[39m[0m
+[0m [90m 20 |[39m[0m
+    at Parser._raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseObjectLike (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1947:14)
+    at Parser.parseExprAtom (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:682:23)
+    at Parser.parseUpdate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
+    at callback (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12)
+    at Parser.allowInAnd (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2963:12) {"date":"Fri Mar 04 2022 12:10:52 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":52,"index":501,"line":17},"pos":501,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":84334},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286802,"external":26912884,"heapTotal":134500352,"heapUsed":114705816,"rss":169709568},"pid":8368,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\services\\note.service.js: Unexpected token, expected \",\" (17:52)\n\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m getAllNotes \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m (body) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mconst\u001b[39m data \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfind({userId\u001b[33m:\u001b[39mbody\u001b[33m.\u001b[39muserId)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m     \u001b[36mreturn\u001b[39m data\u001b[33m;\u001b[39m \u001b[90m//reffers the 'data'frm controller\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m   }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseObjectLike (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1947:14)\n    at Parser.parseExprAtom (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at callback (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12)\n    at Parser.allowInAnd (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2963:12)","timestamp":"2022-03-04T06:40:52.084Z","trace":[{"column":45,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1947,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"callback","line":257,"method":null,"native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.allowInAnd","line":2963,"method":"allowInAnd","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T06:42:05.321Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T06:42:05.350Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 113
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-04T06:44:43.820Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T06:49:25.143Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T06:49:25.178Z"}
+error: 
+      status - 400
+      message - Token for Authorization is Incorrect 
+      url - /api/v1/note 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-03-04T06:50:23.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:17:24.553Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:17:24.600Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:18:04.368Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:18:04.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:19:09.084Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:19:09.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:20:09.461Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:20:09.496Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:20:55.448Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:20:55.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:23:15.431Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:23:15.464Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:26:21.311Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:26:21.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:26:44.678Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:26:44.704Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:27:12.414Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:27:12.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:27:30.423Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:27:30.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:28:31.060Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:28:31.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:30:08.939Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:30:08.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:31:24.710Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:31:24.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:31:35.383Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:31:35.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:35:13.760Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:35:13.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:35:41.496Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:35:41.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:39:14.293Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:39:14.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:39:44.276Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:39:44.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:40:54.518Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:40:54.550Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got 6221c50ff5a9ca23081c83ba
+    at model.Query.Query.find (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee2$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/note.service.js:17:29)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/note.service.js:16:25)
+    at _callee2$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\controllers\/note.controller.js:23:40)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-04T07:52:46.141Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T07:54:28.779Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T07:54:28.827Z"}
+error: uncaughtException: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:37)
+
+[0m [90m 69 |[39m [90m//Delete note by id[39m[0m
+[0m [90m 70 |[39m [36mexport[39m [36mconst[39m delById [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndDelete({req[33m.[39mbody[33m.[39m_id})[33m;[39m[0m
+[0m [90m    |[39m                                      [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m     [36mreturn[39m [32m''[39m[33m;[39m[0m
+[0m [90m 73 |[39m   }[33m;[39m[0m
+[0m [90m 74 |[39m[0m
+SyntaxError: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:37)
+
+[0m [90m 69 |[39m [90m//Delete note by id[39m[0m
+[0m [90m 70 |[39m [36mexport[39m [36mconst[39m delById [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndDelete({req[33m.[39mbody[33m.[39m_id})[33m;[39m[0m
+[0m [90m    |[39m                                      [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m     [36mreturn[39m [32m''[39m[33m;[39m[0m
+[0m [90m 73 |[39m   }[33m;[39m[0m
+[0m [90m 74 |[39m[0m
+    at Parser._raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseObjectLike (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1947:14)
+    at Parser.parseExprAtom (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:682:23)
+    at Parser.parseUpdate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
+    at callback (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12)
+    at Parser.allowInAnd (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2963:12) {"date":"Fri Mar 04 2022 13:27:10 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":37,"index":1585,"line":71},"pos":1585,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":88912},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18294994,"external":26971136,"heapTotal":134705152,"heapUsed":112794584,"rss":171401216},"pid":15096,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\services\\note.service.js: Unexpected token, expected \",\" (71:37)\n\n\u001b[0m \u001b[90m 69 |\u001b[39m \u001b[90m//Delete note by id\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m delById \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m (req) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 71 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndDelete({req\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39m_id})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m     \u001b[36mreturn\u001b[39m \u001b[32m''\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 73 |\u001b[39m   }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseObjectLike (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1947:14)\n    at Parser.parseExprAtom (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at callback (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12)\n    at Parser.allowInAnd (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2963:12)","timestamp":"2022-03-04T07:57:10.102Z","trace":[{"column":45,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1947,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"callback","line":257,"method":null,"native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.allowInAnd","line":2963,"method":"allowInAnd","native":false}]}
+error: uncaughtException: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:37)
+
+[0m [90m 69 |[39m [90m//Delete note by id[39m[0m
+[0m [90m 70 |[39m [36mexport[39m [36mconst[39m delById [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndDelete({req[33m.[39mbody[33m.[39m_id})[33m;[39m[0m
+[0m [90m    |[39m                                      [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m     [36mreturn[39m [32m''[39m[33m;[39m[0m
+[0m [90m 73 |[39m   }[33m;[39m[0m
+[0m [90m 74 |[39m[0m
+SyntaxError: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:37)
+
+[0m [90m 69 |[39m [90m//Delete note by id[39m[0m
+[0m [90m 70 |[39m [36mexport[39m [36mconst[39m delById [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndDelete({req[33m.[39mbody[33m.[39m_id})[33m;[39m[0m
+[0m [90m    |[39m                                      [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m     [36mreturn[39m [32m''[39m[33m;[39m[0m
+[0m [90m 73 |[39m   }[33m;[39m[0m
+[0m [90m 74 |[39m[0m
+    at Parser._raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseObjectLike (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1947:14)
+    at Parser.parseExprAtom (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:682:23)
+    at Parser.parseUpdate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
+    at callback (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12)
+    at Parser.allowInAnd (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2963:12) {"date":"Fri Mar 04 2022 13:29:12 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":37,"index":1585,"line":71},"pos":1585,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":89035},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18294994,"external":26987520,"heapTotal":134795264,"heapUsed":112161920,"rss":170971136},"pid":2344,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\services\\note.service.js: Unexpected token, expected \",\" (71:37)\n\n\u001b[0m \u001b[90m 69 |\u001b[39m \u001b[90m//Delete note by id\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m delById \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m (req) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 71 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndDelete({req\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39m_id})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m     \u001b[36mreturn\u001b[39m \u001b[32m''\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 73 |\u001b[39m   }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseObjectLike (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1947:14)\n    at Parser.parseExprAtom (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at callback (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12)\n    at Parser.allowInAnd (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2963:12)","timestamp":"2022-03-04T07:59:12.906Z","trace":[{"column":45,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1947,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"callback","line":257,"method":null,"native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.allowInAnd","line":2963,"method":"allowInAnd","native":false}]}
+error: uncaughtException: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:37)
+
+[0m [90m 69 |[39m [90m//Delete note by id[39m[0m
+[0m [90m 70 |[39m [36mexport[39m [36mconst[39m delById [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndDelete({req[33m.[39mbody[33m.[39m_id})[33m;[39m[0m
+[0m [90m    |[39m                                      [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m     [36mreturn[39m [32m''[39m[33m;[39m[0m
+[0m [90m 73 |[39m   }[33m;[39m[0m
+[0m [90m 74 |[39m[0m
+SyntaxError: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:37)
+
+[0m [90m 69 |[39m [90m//Delete note by id[39m[0m
+[0m [90m 70 |[39m [36mexport[39m [36mconst[39m delById [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndDelete({req[33m.[39mbody[33m.[39m_id})[33m;[39m[0m
+[0m [90m    |[39m                                      [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m     [36mreturn[39m [32m''[39m[33m;[39m[0m
+[0m [90m 73 |[39m   }[33m;[39m[0m
+[0m [90m 74 |[39m[0m
+    at Parser._raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseObjectLike (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1947:14)
+    at Parser.parseExprAtom (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:682:23)
+    at Parser.parseUpdate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
+    at callback (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12)
+    at Parser.allowInAnd (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2963:12) {"date":"Fri Mar 04 2022 13:29:25 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":37,"index":1585,"line":71},"pos":1585,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":89048},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18294994,"external":26987555,"heapTotal":134270976,"heapUsed":112192440,"rss":170086400},"pid":5820,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\services\\note.service.js: Unexpected token, expected \",\" (71:37)\n\n\u001b[0m \u001b[90m 69 |\u001b[39m \u001b[90m//Delete note by id\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m delById \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m (req) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 71 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndDelete({req\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39m_id})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m     \u001b[36mreturn\u001b[39m \u001b[32m''\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 73 |\u001b[39m   }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseObjectLike (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1947:14)\n    at Parser.parseExprAtom (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at callback (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12)\n    at Parser.allowInAnd (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2963:12)","timestamp":"2022-03-04T07:59:25.703Z","trace":[{"column":45,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1947,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"callback","line":257,"method":null,"native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.allowInAnd","line":2963,"method":"allowInAnd","native":false}]}
+error: uncaughtException: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:37)
+
+[0m [90m 69 |[39m [90m//Delete note by id[39m[0m
+[0m [90m 70 |[39m [36mexport[39m [36mconst[39m delById [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndDelete({req[33m.[39mbody[33m.[39m_id})[33m;[39m[0m
+[0m [90m    |[39m                                      [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m     [36mreturn[39m [32m''[39m[33m;[39m[0m
+[0m [90m 73 |[39m   }[33m;[39m[0m
+[0m [90m 74 |[39m[0m
+SyntaxError: C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:37)
+
+[0m [90m 69 |[39m [90m//Delete note by id[39m[0m
+[0m [90m 70 |[39m [36mexport[39m [36mconst[39m delById [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndDelete({req[33m.[39mbody[33m.[39m_id})[33m;[39m[0m
+[0m [90m    |[39m                                      [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m     [36mreturn[39m [32m''[39m[33m;[39m[0m
+[0m [90m 73 |[39m   }[33m;[39m[0m
+[0m [90m 74 |[39m[0m
+    at Parser._raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseObjectLike (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1947:14)
+    at Parser.parseExprAtom (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:682:23)
+    at Parser.parseUpdate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
+    at callback (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12)
+    at Parser.allowInAnd (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2963:12) {"date":"Fri Mar 04 2022 13:29:28 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":37,"index":1585,"line":71},"pos":1585,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":89050},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18294994,"external":26987555,"heapTotal":134533120,"heapUsed":112262616,"rss":170082304},"pid":6260,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\services\\note.service.js: Unexpected token, expected \",\" (71:37)\n\n\u001b[0m \u001b[90m 69 |\u001b[39m \u001b[90m//Delete note by id\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m delById \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m (req) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 71 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndDelete({req\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39m_id})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m     \u001b[36mreturn\u001b[39m \u001b[32m''\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 73 |\u001b[39m   }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseObjectLike (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1947:14)\n    at Parser.parseExprAtom (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at callback (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12)\n    at Parser.allowInAnd (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2963:12)","timestamp":"2022-03-04T07:59:28.141Z","trace":[{"column":45,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1947,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"callback","line":257,"method":null,"native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.allowInAnd","line":2963,"method":"allowInAnd","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T08:00:15.678Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T08:00:15.702Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T08:31:12.271Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T08:31:12.301Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T08:33:00.684Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T08:33:00.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T08:33:19.529Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T08:33:19.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T08:33:46.663Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T08:33:46.698Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T08:46:02.121Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T08:46:02.158Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T08:47:22.310Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T08:47:22.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T08:47:32.974Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T08:47:33.022Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T08:48:16.803Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T08:48:16.849Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T08:59:58.299Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T08:59:58.328Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:05:09.408Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:05:09.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:05:37.469Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:05:37.496Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:07:55.738Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:07:55.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:08:07.840Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:08:07.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:09:39.832Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:09:39.873Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:12:28.151Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:12:28.190Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:12:47.997Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:12:48.028Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:14:28.248Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:14:28.278Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:15:55.767Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:15:55.801Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:16:18.131Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:16:18.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:16:46.014Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:16:46.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:27:04.850Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:27:04.881Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:27:37.822Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:27:37.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T09:28:20.241Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T09:28:20.297Z"}
+error: 
+    status - 500 
+    message - Error: No Note is Found
+    at _callee2$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/note.service.js:19:13)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-04T09:31:40.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:35:52.300Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:35:52.337Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:36:20.609Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:36:20.716Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:37:19.547Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:37:19.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:38:56.465Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:38:56.498Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:39:09.270Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:39:09.318Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:39:19.133Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:39:19.235Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:39:29.663Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:39:29.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:39:51.548Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:39:51.576Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:40:37.998Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:40:38.028Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:41:36.764Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:41:36.806Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:41:46.807Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:41:46.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:41:56.290Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:41:56.333Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:42:17.815Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:42:17.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:44:31.599Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:44:31.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:44:43.378Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:44:43.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:46:19.314Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:46:19.358Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:46:41.157Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:46:41.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T10:55:27.675Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T10:55:27.730Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T11:02:15.342Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T11:02:15.408Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T11:36:12.375Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T11:36:12.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T11:37:22.531Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T11:37:22.596Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-04T11:38:52.862Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T11:38:52.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T02:26:17.322Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T02:26:17.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T02:36:45.699Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T02:36:45.730Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T02:50:39.061Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T02:50:39.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T02:50:54.314Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T02:50:54.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T15:36:02.335Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T15:36:02.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T15:38:17.438Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T15:38:17.470Z"}
+error: 
+    status - 500 
+    message - Error: No Note is Found
+    at _callee2$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/note.service.js:17:13)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-05T15:42:23.541Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:34:13)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgot 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-05T15:58:34.051Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/user.service.js:34:13)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgot 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-05T15:58:46.654Z"}
+info: undefined {"accepted":["vishnu7971@gmail.com"],"envelope":{"from":"shruthinofch@gmail.com","to":["vishnu7971@gmail.com"]},"envelopeTime":1111,"messageId":"<7a33ba54-7c29-421f-6a2c-e8ef03dd5098@gmail.com>","messageSize":561,"messageTime":874,"rejected":[],"response":"250 2.0.0 OK  1646495968 h3-20020a056a00170300b004f104c635e4sm10129962pfc.99 - gsmtp","timestamp":"2022-03-05T15:59:28.139Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:03:24.710Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:03:24.747Z"}
+error: 
+      status - 400
+      message - Token for Authorization is Incorrect 
+      url - /api/v1/note 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-03-05T16:06:30.801Z"}
+error: 
+    status - 500 
+    message - Error: No Note is Found
+    at _callee2$ (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\services\/note.service.js:17:13)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-05T16:18:13.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:24:40.137Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:24:40.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:24:48.217Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:24:48.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:27:36.514Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:27:36.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:27:57.425Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:27:57.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:29:20.521Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:29:20.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:30:17.030Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:30:17.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:31:09.916Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:31:09.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:34:14.926Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:34:14.967Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:36:41.502Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:36:41.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:37:13.365Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:37:13.407Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:44:49.528Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:44:49.562Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:45:54.751Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:45:54.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:46:57.442Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:46:57.475Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:48:12.268Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:48:12.301Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:49:20.975Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:49:21.007Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:49:31.611Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:49:31.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:50:46.976Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:50:47.096Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Sat Mar 05 2022 22:20:52 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":207335},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18373372,"external":25421998,"heapTotal":125763584,"heapUsed":99109792,"rss":161292288},"pid":8828,"uid":null,"version":"v16.13.2"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-05T16:50:52.743Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Sat Mar 05 2022 22:20:59 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":207342},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18377792,"external":25413806,"heapTotal":125239296,"heapUsed":100607024,"rss":161161216},"pid":13616,"uid":null,"version":"v16.13.2"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-05T16:50:59.646Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Sat Mar 05 2022 22:21:13 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":207356},"process":{"argv":["node","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18373372,"external":25430190,"heapTotal":125763584,"heapUsed":100085488,"rss":161042432},"pid":9712,"uid":null,"version":"v16.13.2"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-05T16:51:13.684Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:51:34.812Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:51:34.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-05T16:53:49.532Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T16:53:49.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-06T09:32:06.640Z"}
+info: Connected to the database. {"timestamp":"2022-03-06T09:32:06.683Z"}
+info: undefined {"accepted":["vishnu7038@gmail.com"],"envelope":{"from":"shruthinofch@gmail.com","to":["vishnu7038@gmail.com"]},"envelopeTime":1057,"messageId":"<7f381c7d-13dc-e6a5-f001-b4ea6cc29769@gmail.com>","messageSize":561,"messageTime":1210,"rejected":[],"response":"250 2.0.0 OK  1646559130 y2-20020a056a00190200b004f6ef638551sm1630425pfi.98 - gsmtp","timestamp":"2022-03-06T09:32:10.778Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-06T09:34:06.671Z"}
+info: Connected to the database. {"timestamp":"2022-03-06T09:34:06.714Z"}
+info: undefined {"accepted":["vishnu7038@gmail.com"],"envelope":{"from":"shruthinofch@gmail.com","to":["vishnu7038@gmail.com"]},"envelopeTime":802,"messageId":"<17ebf980-eb7c-b282-85e2-4c0e78cacb9d@gmail.com>","messageSize":561,"messageTime":623,"rejected":[],"response":"250 2.0.0 OK  1646559249 d3-20020a056a00244300b004bc9397d3d0sm12003330pfj.103 - gsmtp","timestamp":"2022-03-06T09:34:09.640Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\tests\integration\/user.test.js:104:40)
+    at Test.assert (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Sun Mar 06 2022 15:04:09 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js:104:40)\n    at Test.assert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":267532},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18430332,"external":21811029,"heapTotal":158490624,"heapUsed":129229296,"rss":194240512},"pid":8884,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js:104:40)\n    at Test.assert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-06T09:34:09.751Z","trace":[{"column":40,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":104,"method":null,"native":false},{"column":6,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-06T09:35:56.750Z"}
+info: Connected to the database. {"timestamp":"2022-03-06T09:35:56.823Z"}
+info: undefined {"accepted":["vishnu7038@gmail.com"],"envelope":{"from":"shruthinofch@gmail.com","to":["vishnu7038@gmail.com"]},"envelopeTime":842,"messageId":"<76777dd5-6c8e-2a18-774e-d2b22972fa5c@gmail.com>","messageSize":561,"messageTime":643,"rejected":[],"response":"250 2.0.0 OK  1646559359 d202-20020a621dd3000000b004f6f21593cesm1334777pfd.220 - gsmtp","timestamp":"2022-03-06T09:35:59.811Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\tests\integration\/user.test.js:104:40)
+    at Test.assert (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Sun Mar 06 2022 15:05:59 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js:104:40)\n    at Test.assert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":267642},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18430337,"external":21811034,"heapTotal":158490624,"heapUsed":130536200,"rss":193306624},"pid":9860,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js:104:40)\n    at Test.assert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-06T09:35:59.866Z","trace":[{"column":40,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":104,"method":null,"native":false},{"column":6,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-06T09:55:54.190Z"}
+info: Connected to the database. {"timestamp":"2022-03-06T09:55:54.397Z"}
+info: undefined {"accepted":["vishnu7038@gmail.com"],"envelope":{"from":"shruthinofch@gmail.com","to":["vishnu7038@gmail.com"]},"envelopeTime":961,"messageId":"<4265092e-f4db-ac2f-974d-a93acf12e4b6@gmail.com>","messageSize":561,"messageTime":696,"rejected":[],"response":"250 2.0.0 OK  1646560557 z6-20020a056a00240600b004e17ab23340sm12098682pfh.177 - gsmtp","timestamp":"2022-03-06T09:55:57.554Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\tests\integration\/user.test.js:104:40)
+    at Test.assert (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Sun Mar 06 2022 15:25:57 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js:104:40)\n    at Test.assert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":268840},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18431003,"external":21811700,"heapTotal":158228480,"heapUsed":130112632,"rss":193208320},"pid":13940,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js:104:40)\n    at Test.assert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-06T09:55:57.606Z","trace":[{"column":40,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":104,"method":null,"native":false},{"column":6,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-06T10:06:55.043Z"}
+info: Connected to the database. {"timestamp":"2022-03-06T10:06:55.121Z"}
+info: undefined {"accepted":["vishnu7038@gmail.com"],"envelope":{"from":"shruthinofch@gmail.com","to":["vishnu7038@gmail.com"]},"envelopeTime":902,"messageId":"<84153827-0e54-e3dd-4603-5df81703ecf9@gmail.com>","messageSize":561,"messageTime":665,"rejected":[],"response":"250 2.0.0 OK  1646561217 d2-20020a056a0024c200b004f6b6817549sm8942081pfv.173 - gsmtp","timestamp":"2022-03-06T10:06:58.135Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\tests\integration\/user.test.js:104:40)
+    at Test.assert (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\VISHNU SATHEESH\Project\Fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Sun Mar 06 2022 15:36:58 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js:104:40)\n    at Test.assert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":269500},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18430334,"external":21811031,"heapTotal":158228480,"heapUsed":130451776,"rss":192876544},"pid":11896,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js:104:40)\n    at Test.assert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-06T10:06:58.191Z","trace":[{"column":40,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":104,"method":null,"native":false},{"column":6,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\VISHNU SATHEESH\\Project\\Fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-06T10:08:13.385Z"}
+info: Connected to the database. {"timestamp":"2022-03-06T10:08:13.429Z"}
+info: undefined {"accepted":["vishnu7038@gmail.com"],"envelope":{"from":"shruthinofch@gmail.com","to":["vishnu7038@gmail.com"]},"envelopeTime":788,"messageId":"<6f10f6c7-9b75-2e3d-5fa6-ab0dad0bdf06@gmail.com>","messageSize":561,"messageTime":685,"rejected":[],"response":"250 2.0.0 OK  1646561296 j14-20020a056a00174e00b004f66ce6367bsm12681667pfc.147 - gsmtp","timestamp":"2022-03-06T10:08:16.306Z"}
