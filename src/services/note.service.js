@@ -1,5 +1,5 @@
 import Note from '../models/note.model';
-
+import { client } from '../config/redis';
 //TO create new note
 
 export const create = async (body) => {
@@ -16,6 +16,7 @@ export const getAllNotes = async (userId) => {
     if(data.length === 0){
       throw Error('No Note is Found')
     }else{
+     await client.set('getAllNote',JSON.stringify(data))
     return data;
     }                          //reffers the 'data'frm controller
   };
