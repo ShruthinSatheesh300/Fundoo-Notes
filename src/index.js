@@ -3,13 +3,13 @@ dotenv.config();
 import swaggerUi from 'swagger-ui-express';
 import swaggerDocument from './swagger/swagger.json'
 
-
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 
 import routes from './routes';
 import database from './config/database';
+import redis from './config/redis';
 import {
   appErrorHandler,
   genericErrorHandler,
@@ -30,8 +30,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-
+redis();
 database();
+
 
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);
