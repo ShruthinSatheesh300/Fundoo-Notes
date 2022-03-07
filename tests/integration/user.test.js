@@ -47,6 +47,43 @@ describe('Users APIs Test', () => {
           done();
         });
     });
+
+    it('should give a error of Name required', (done) => {
+
+      const userTst = {
+        firstName: "",
+        lastName: "Satheesh",
+        email: "vishnu7038@gmail.com",
+        password: "vishnu135"
+      };
+
+      request(app)
+        .post('/api/v1/users/userregister')
+        .send(userTst)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.INTERNAL_SERVER_ERROR);
+          done();
+        });
+    });
+
+    it('should give a error of last name is required', (done) => {
+
+      const userTst = {
+        firstName: "Shruthin",
+        lastName: "",
+        email: "vishnu7038@gmail.com",
+        password: "vishnu135"
+      };
+
+      request(app)
+        .post('/api/v1/users/userregister')
+        .send(userTst)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.INTERNAL_SERVER_ERROR);
+          done();
+        });
+    });
+
   });
 
   describe(`POST /login`, () => {
@@ -91,18 +128,18 @@ describe('Users APIs Test', () => {
   });
   describe(`PUT/setpass`, () => {
     it('should reset the with new password', (done) => {
-      const userTst  = {
-        password : "vishnuNew"
+      const userTst = {
+        password: "vishnuNew"
       };
-      const jwToken =" Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZpc2hudTcwMzhAZ21haWwuY29tIiwiaWQiOiI2MjI0N2Y5NjMwZTQyZDIyYTg3NTQ4MGMiLCJpYXQiOjE2NDY1NTkxMjd9.bff5nrlWx0MBDVsSxwhsRnMI2-kYazHz2vTDUvUF8Nk";
+      const jwToken = " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZpc2hudTcwMzhAZ21haWwuY29tIiwiaWQiOiI2MjI1NzA0OTk5N2RiMDI0YzhkNDhjNTYiLCJpYXQiOjE2NDY2MjA3NDV9.L1aADLHERXuHe7QnX3I0q2cys6Z02ctKCUyCgXdC3nk";
 
       request(app)
-        .put('/api/v1/setpass')
-        .set('Authorization',`${jwToken}`)
+        .put('/api/v1/users/setpass')
+        .set('Authorization', `${jwToken}`)
         .send(userTst)
-        .end((err,res) => {
-          expect(res.statusCode).to.be.equal(HttpStatus.NOT_FOUND);
-        done();
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
         });
     });
   });
