@@ -5,13 +5,16 @@ import { client } from '../config/redis';
 export const create = async (body) => {
 
       const data = await Note.create(body);
+      if(data){
+        await client.del('getAllNote');
+      
       return data;         //reffers the 'data'frm controller
-     
+      }
 };
 
 //TO retrive all notes
 
-export const getAllNotes = async (userId) => {
+export const getAllNote = async (userId) => {
     const data = await Note.find({userId});
     if(data.length === 0){
       throw Error('No Note is Found')
