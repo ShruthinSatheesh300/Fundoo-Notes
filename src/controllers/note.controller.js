@@ -17,10 +17,10 @@ export const create = async (req, res, next) => {
   };
 
 //To retrieve all notes
-export const getAllNotes = async (req, res, next) => {
+export const getAllNote = async (req, res, next) => {
     try {
       req.body.userId = req.body.data.id;
-        const data = await NoteService.getAllNotes(req.body.userId);
+        const data = await NoteService.getAllNote(req.body.userId);
         res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
