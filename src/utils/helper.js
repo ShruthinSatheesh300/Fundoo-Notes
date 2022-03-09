@@ -25,11 +25,43 @@ export const sendMail = (email, token) => {
             if (info) {
                 logger.log('info', info);
                 return resolve('Reset link sent successfully');
-            }else {
+            } else {
                 logger.log('error', err);
                 return reject('Error in sending Link');
             }
-    
+
+        });
+    })
+}
+
+export const rabbitmqMailSend =(email, msg) => {
+    const transport = nodemailer.createTransport({
+
+       
+            service:"gmail",
+            auth:  {
+                user: process.env.SENDERS_ID,
+                pass: process.env.PASSWORD
+            }
+        
+        
+    })
+    const mailoption1 = {
+        from: process.env.SENDE_ID,
+        to: email,
+        subject: "rabbitmq ",
+        html: `<h1>User Register Successful</h1>`
+    }
+    return new Promise((resolve,reject)=>{
+        transport.sendMail(mailoption1,(err,info)=> {
+            if(err){
+                logger.log('error', err);
+                return reject('Mail send fail');
+            }
+            else{
+                logger.log('info', info);
+                return resolve('User registration done successfully');
+            }
+        })
     });
-})
 }
