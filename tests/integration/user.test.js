@@ -5,6 +5,8 @@ import HttpStatus from 'http-status-codes';
 
 import app from '../../src/index';
 
+let userToken;
+
 describe('Users APIs Test', () => {
   before((done) => {
     const clearCollections = () => {
@@ -61,7 +63,7 @@ describe('Users APIs Test', () => {
         .post('/api/v1/users/userregister')
         .send(userTst)
         .end((err, res) => {
-          expect(res.statusCode).to.be.equal(HttpStatus.INTERNAL_SERVER_ERROR);
+          expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
           done();
         });
     });
@@ -79,7 +81,7 @@ describe('Users APIs Test', () => {
         .post('/api/v1/users/userregister')
         .send(userTst)
         .end((err, res) => {
-          expect(res.statusCode).to.be.equal(HttpStatus.INTERNAL_SERVER_ERROR);
+          expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
           done();
         });
     });
@@ -100,11 +102,16 @@ describe('Users APIs Test', () => {
         .post('/api/v1/users/login')
         .send(userTst)
         .end((err, res) => {
+          userToken = res.body.data;
           expect(res.statusCode).to.be.equal(HttpStatus.OK);
           done();
         });
     });
   });
+
+
+
+
 
 
   describe(`POST/forgot`, () => {
@@ -143,5 +150,168 @@ describe('Users APIs Test', () => {
         });
     });
   });
+  // NOTES
+
+  describe(`POST /create Note`, () => {
+
+    it(' should create Note for Authorized User', (done) => {
+
+      const noteTst = {
+
+        Title: "NodeJs",
+        Description: "CF NodeJs Batch",
+        Color: "Red"
+      };
+
+      request(app)
+        .post('/api/v1/note')
+        .set('Authorization', `Bearer ${userToken}`)
+
+        .send(noteTst)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.CREATED);
+          done();
+        });
+    });
+  });
+  // Get All Notes
+  describe(`GET /get All Notes`, () => {
+
+    it(' should get all Notes of Authorized User', (done) => {
+
+      const noteTst = {
+
+        Title: "NodeJs",
+        Description: "CF NodeJs Batch",
+        Color: "Red"
+      };
+
+      request(app)
+        .get('/api/v1/note')
+        .set('Authorization', `Bearer ${userToken}`)
+
+        .send(noteTst)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+  });
+  //Get Note by _id
+  describe(`GET /get Note By _id`, () => {
+
+    it(' should get a Note by its _id  for Authorized User', (done) => {
+
+      const noteTst = {
+
+        Title: "NodeJs",
+        Description: "CF NodeJs Batch",
+        Color: "Red"
+      };
+
+      request(app)
+        .get('/api/v1/note/6229f8f98004cb3dd0fe3c70')
+        .set('Authorization', `Bearer ${userToken}`)
+
+        .send(noteTst)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+  });
+  // Update a note by _id
+  describe(`PUT /update a  Note By _id`, () => {
+
+    it(' should update  a Note by its _id  for Authorized User', (done) => {
+
+      const noteTst = {
+
+        Title: "NodeJs",
+        Description: "CF NodeJs Batch",
+        Color: "Blue"
+      };
+
+      request(app)
+        .put('/api/v1/note/6229f8f98004cb3dd0fe3c70')
+        .set('Authorization', `Bearer ${userToken}`)
+
+        .send(noteTst)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+  });
+
+  describe(`PUT /add a  Note to archive By _id`, () => {
+
+    it(' should add a Note to archive by its _id  for Authorized User', (done) => {
+
+      const noteTst = {
+
+        Title: "NodeJs",
+        Description: "CF NodeJs Batch",
+        Color: "Red"
+      };
+
+      request(app)
+        .put('/api/v1/note/6229f8f98004cb3dd0fe3c70')
+        .set('Authorization', `Bearer ${userToken}`)
+
+        .send(noteTst)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+  });
+
+  describe(`PUT /add a  Note to TrashBin By _id`, () => {
+
+    it(' should add a Note to TrashBin by its _id  for Authorized User', (done) => {
+
+      const noteTst = {
+
+        Title: "NodeJs",
+        Description: "CF NodeJs Batch",
+        Color: "Red"
+      };
+
+      request(app)
+        .put('/api/v1/note/6229f8f98004cb3dd0fe3c70')
+        .set('Authorization', `Bearer ${userToken}`)
+
+        .send(noteTst)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+  });
+
+  describe(`DELETE /delete a  Note to  By userId`, () => {
+
+    it(' should delete  Note  by its userId  for Authorized User', (done) => {
+
+      const noteTst = {
+
+        Title: "NodeJs",
+        Description: "CF NodeJs Batch",
+        Color: "Red"
+      };
+
+      request(app)
+        .delete('/api/v1/note/delete')
+        .set('Authorization', `Bearer ${userToken}`)
+
+        .send(noteTst)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+  });
+
 
 });
