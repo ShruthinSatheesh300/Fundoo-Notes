@@ -25,7 +25,7 @@ export const userRegistration = async (body) => {
 return data;
   }
   else{
-  throw new Error('Email already Exists')
+  throw new Error('Email already Registered');
   }
 };
 //User Login part

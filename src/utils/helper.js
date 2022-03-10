@@ -34,7 +34,7 @@ export const sendMail = (email, token) => {
     })
 }
 
-export const rabbitmqMailSend =(email, msg) => {
+export const rabbitmqMail =(email, msg) => {
     const transport = nodemailer.createTransport({
 
        
@@ -49,7 +49,7 @@ export const rabbitmqMailSend =(email, msg) => {
     const mailoption1 = {
         from: process.env.SENDE_ID,
         to: email,
-        subject: "rabbitmq ",
+        subject: "Registration of User ",
         html: `<h1>User Register Successful</h1>`
     }
     return new Promise((resolve,reject)=>{
