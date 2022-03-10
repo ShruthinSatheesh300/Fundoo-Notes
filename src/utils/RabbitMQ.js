@@ -1,4 +1,4 @@
-import { rabbitmqMailSend } from '../utils/helper';
+import { rabbitmqMail } from '../utils/helper';
 
 
 
@@ -17,15 +17,15 @@ amqp.connect('amqp://localhost', function(error0, connection) {
             throw error1;
         }
         
-        var queue = 'rabbitmq';
-        var msg = JSON.stringify(data);;
+        let queue = 'rabbitmq';
+        let msg = JSON.stringify(data);;
 
         channel.assertQueue(queue, {
             durable: false
         });
         channel.sendToQueue(queue, Buffer.from(msg));
 
-        console.log(" [x] Sent %s", msg);
+        console.log(" [x] Sent by Producer %s", msg);
     });
     
 });
@@ -43,7 +43,7 @@ amqp.connect('amqp://localhost', function(error0, connection) {
             throw error1;
         }
 
-        var queue = 'rabbitmq';
+        let queue = 'rabbitmq';
 
         channel.assertQueue(queue, {
             durable: false
@@ -54,7 +54,7 @@ amqp.connect('amqp://localhost', function(error0, connection) {
         channel.consume(queue, function(msg) {
             console.log(" [x] Received %s", msg.content.toString());
             const mailer = JSON.parse(msg.content);
-            rabbitmqMailSend(mailer.email);
+            rabbitmqMail(mailer.email);
         }, {
             noAck: true
         });
