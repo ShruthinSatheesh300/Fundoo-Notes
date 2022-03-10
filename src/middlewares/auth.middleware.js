@@ -14,14 +14,14 @@ import jwt from 'jsonwebtoken';
     let bearerToken = req.header('Authorization');
     if (!bearerToken)
       throw {
-        code: HttpStatus.BAD_REQUEST,
+        code: HttpStatus.UNAUTHORIZED,
         message: 'Authorization token is required'
       };
     bearerToken = bearerToken.split(' ')[1];
     jwt.verify(bearerToken,process.env.SECRET_CODE, (err, verifiedToken) => {
       if (err) {
         throw {
-          code:HttpStatus.BAD_REQUEST,
+          code:HttpStatus.UNAUTHORIZED,
           message: 'Token for Authorization is Incorrect'
         };
       }else{
@@ -40,13 +40,13 @@ export const authenticate = async (req, res, next) => {
     let bearerToken = req.header('Authorization');
     if (!bearerToken)
       throw {
-        code: HttpStatus.BAD_REQUEST,
+        code: HttpStatus.UNAUTHORIZED,
         message: 'Authorization token is required'
       };
       bearerToken = bearerToken.split(' ')[1];
     jwt.verify(bearerToken, process.env.SECRET_KEY, (err, verifiedToken) => {
       if (err) {
-        return res.status(HttpStatus.BAD_REQUEST).json({ 
+        return res.status(HttpStatus.UNAUTHORIZED).json({ 
           message: 'Token for Authorization is Incorrect' 
         });
       } else {
