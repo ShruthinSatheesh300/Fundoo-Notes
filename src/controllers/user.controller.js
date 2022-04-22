@@ -7,7 +7,7 @@ import * as UserService from '../services/user.service';
  * @param {object} res - response object
  * @param {Function} next
 //  */
-export const userRegistration = async (req, res, next) => {
+export const userRegistration = async (req, res) => {
   try {
     const data = await UserService.userRegistration(req.body);
     res.status(HttpStatus.CREATED).json({
@@ -20,7 +20,7 @@ export const userRegistration = async (req, res, next) => {
       code:HttpStatus.CONFLICT,
       message: `${error}`
     });
-    next(error);
+   
   }
 };
 

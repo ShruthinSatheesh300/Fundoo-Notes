@@ -8,6 +8,7 @@ import { producer } from '../utils/RabbitMQ';
 //create new user
 export const userRegistration = async (body) => {
   const user = await User.findOne({ email: body.email })
+  console.log(user)
   if(user==null){
 
   

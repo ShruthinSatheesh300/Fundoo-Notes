@@ -43,41 +43,55 @@ export const updateNote = async (_id, body) => {
         new: true
       }
     );
-    return data; //reffers the 'data'frm controller
+    if(data){
+      await client.del('getAllNote');
+    
+    return data;         //reffers the 'data'frm controller
+    }
   };
 
   //To archive by ID
-export const archiveNote = async (_id) => {
+export const archiveNote = async (_id, body) => {
     const data = await Note.findByIdAndUpdate(
       {
         _id
       },
+      body,
       {
-       $set: { isArchived: true },
-      }, {
         new: true
       }
     );
-    return data;
+    if(data){
+      await client.del('getAllNote');
+    
+    return data;         //reffers the 'data'frm controller
+    }
   };
   
   //To add to Trash by id
-  export const trashbin = async (_id) => {
+  export const trashbin = async (_id, body) => {
     const data = await Note.findByIdAndUpdate(
       {
         _id
       },
+      body,
       {
-       $set: { isDeleted: true },
-      }, {
         new: true
       }
     );
-    return data;
+    if(data){
+      await client.del('getAllNote');
+    
+    return data;         //reffers the 'data'frm controller
+    }
   };
 
 //Delete note by id
 export const delNote = async (userId) => {
-    await Note.findByIdAndDelete(userId);
-    return '';
+    const data = await Note.findByIdAndDelete(userId);
+    if(data){
+      await client.del('getAllNote');
+    
+    return data;         //reffers the 'data'frm controller
+    }
   };

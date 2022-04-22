@@ -64,7 +64,7 @@ export const updateNote = async (req, res, next) => {
 export const archiveNote = async (req, res, next) => {
   try {
     req.body.userId = req.body.data.id;
-    const data = await NoteService.archiveNote(req.params._id);
+    const data = await NoteService.archiveNote(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -79,7 +79,7 @@ export const archiveNote = async (req, res, next) => {
 export const trashbin = async (req, res, next) => {
   try {
     req.body.userId = req.body.data.id;
-    const data = await NoteService.trashbin(req.params._id);
+    const data = await NoteService.trashbin(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -93,10 +93,10 @@ export const trashbin = async (req, res, next) => {
 export const delNote = async (req, res, next) => {
   try {
     req.body.userId = req.body.data.id;
-    await NoteService.delNote(req.params._id);
+   const data =  await NoteService.delNote(req.params._id);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-       data: [],
+       
       message: 'Note deleted successfully'
     });
   } catch (error) {

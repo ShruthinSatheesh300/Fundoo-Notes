@@ -464,6 +464,12 @@
                 },
                 "Color": {
                     "type": "string"
+                },
+                "isArchived": {
+                    "type": "boolean"
+                },
+                  "isDeleted": {
+                    "type": "boolean"
                 }
             }
         }

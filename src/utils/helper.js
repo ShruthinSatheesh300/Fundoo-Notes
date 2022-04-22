@@ -18,7 +18,7 @@ export const sendMail = (email, token) => {
         from: process.env.SENDERS_ID,
         to: email,
         subject: "Password Reset Link ",
-        html: `<h1>Link:><a href="http://localhost:3000/${token}">click here</a></h1>`
+        html: `<h1>Link:><a href="http://localhost:4200/resetPassword/${token}">click here</a></h1>`
     }
     return new Promise((resolve, reject) => {
         transport.sendMail(mailOption, (err, info) => {

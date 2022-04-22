@@ -179,12 +179,7 @@ describe('Users APIs Test', () => {
 
     it(' should get all Notes of Authorized User', (done) => {
 
-      const noteTst = {
-
-        Title: "NodeJs",
-        Description: "CF NodeJs Batch",
-        Color: "Red"
-      };
+     
 
       request(app)
         .get('/api/v1/note')

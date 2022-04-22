@@ -24,6 +24,6 @@ router.put('/archive/:_id',userAuth, noteController.archiveNote);
 router.put('/bin/:_id',userAuth, noteController.trashbin);
 
 //To del by Id
-router.delete('/delete',userAuth,noteController.delNote)
+router.delete('/:_id',userAuth,noteController.delNote)
 
 export default router;

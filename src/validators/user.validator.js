@@ -13,7 +13,7 @@ export const newUserValidator = (req, res, next) => {
     code: HttpStatus.BAD_REQUEST,
     message: `Enter valid deatils : ${error}`})
   } else {
-    req.validatedBody = value;
+    // req.validatedBody = value;
     next();
   }
 };
